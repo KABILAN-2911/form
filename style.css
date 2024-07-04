@@ -1,0 +1,31 @@
+.t1{
+   border: 10px;
+}
+
+ .btn1:hover{
+       background-color: green;
+ }
+ .btn2:hover{
+    background-color:red;
+}
+/* .f1{
+    padding:0px 0px 0px 600px ; */
+/* } */
+.div1{
+    /* border: solid 1px black; */
+    
+    padding: 0px 100px 20px 550px;
+}
+.div2{
+    padding:0px 0px 0px 450px;
+}
+@media only screen and (min-width:350px) {
+    .div2{
+    padding:0px 450px 0px 0px;
+    }
+    .div1{
+        padding:0px 550px 0px 100px ;
+    }
+    
+}
+
